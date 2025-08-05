@@ -7,7 +7,13 @@ using UnityEngine;
 public class Turnmanager : MonoBehaviour
 {
     public List<UnitBase> turnOrder = new List<UnitBase>();
-    
+    public static Turnmanager Instance;
+
+    private void Awake()
+    {
+        Instance = this;
+    }
+
     private int currentIndex = 0;
 
     private void Start()
@@ -23,6 +29,11 @@ public class Turnmanager : MonoBehaviour
             .OrderByDescending(u => u.speed)
             .ToList();
 
+        if (UnitManager.Instance.unitList.Count == 0)
+        {
+            Debug.Log("유닛 리스트가 비어부렀다.");
+            return;
+        }
         if (turnOrder.Count == 0)
         {
             Debug.Log("턴 큐가 비어부렀다.");
@@ -35,12 +46,12 @@ public class Turnmanager : MonoBehaviour
 
     IEnumerator TurnLoop()
     {
+        
         Debug.Log($"턴 루프를 시작했다. 시작 인덱스{currentIndex}");
-        for (int i = 0; i < 10; i++)
+        while (true)
         {
             UnitBase currentUnit = turnOrder[currentIndex];
             yield return StartCoroutine(currentUnit.TakeTurn());
-
             yield return new WaitForSeconds(2f);
             currentIndex = (currentIndex + 1) % turnOrder.Count;
         }
