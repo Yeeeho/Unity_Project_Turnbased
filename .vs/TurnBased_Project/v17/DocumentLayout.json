@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\enemyunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|c:\\users\\tjswl\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\turnbased_project\\assets\\scripts\\movmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\playerunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\unitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\camfollowtarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camfollowtarget.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\enemyunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\playerunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,48 +30,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MovManager.cs",
               "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\MovManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovManager.cs",
               "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\MovManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAswBkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-04T06:45:55.702Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TurnManager.cs",
-              "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\TurnManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\TurnManager.cs",
-              "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\TurnManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\TurnManager.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAYwDIAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T07:52:02.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "UnitManager.cs",
               "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\UnitManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnitManager.cs",
               "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\UnitManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UnitManager.cs",
-              "ViewState": "AgIAAC8AAAAAAAAAAAAowDoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-18T07:41:40.793Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "TurnManager.cs",
+              "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\TurnManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TurnManager.cs",
+              "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\TurnManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TurnManager.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwDIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T07:52:02.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "PlayerUnit.cs",
               "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\PlayerUnit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerUnit.cs",
@@ -87,28 +83,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "EnemyUnit.cs",
               "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\EnemyUnit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyUnit.cs",
               "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\EnemyUnit.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyUnit.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAIwA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T07:47:32.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CamFollowTarget.cs",
-              "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\CamFollowTarget.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\CamFollowTarget.cs",
-              "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\CamFollowTarget.cs",
-              "RelativeToolTip": "Assets\\Scripts\\CamFollowTarget.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAwA8AAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-01T08:02:43.485Z"
+              "WhenOpened": "2025-07-22T07:47:32.621Z"
             }
           ]
         }

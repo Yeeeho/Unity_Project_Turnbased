@@ -20,7 +20,7 @@ public class PlayerUnit : UnitBase
         {
             yield return null;
         }
-        this.Attack(unitList[1]);
+        this.Attack(null);
         Debug.Log("방향키를 눌러 캐릭터를 한 칸 이동.");
         yield return StartCoroutine(MovManager.Instance.Move(this));
         Debug.Log($"{this.name}의 턴이 끝남.");
@@ -28,6 +28,7 @@ public class PlayerUnit : UnitBase
 
     public override void Attack(UnitBase unit)
     {
+        if (unit == null) return;
         Debug.Log($"{this.name}이 {unit.name}을 공격했다.");
         unit.hp -= this.atk;
         Debug.Log($"적의 남은 체력:{unit.hp}");

@@ -21,8 +21,6 @@ public class Turnmanager : MonoBehaviour
         Debug.Log("게임을 시작했다.");
 
         UnitManager.Instance.GeneratePlayer();
-        UnitManager.Instance.GenerateEnemy();
-        UnitManager.Instance.GenerateEnemy();
 
         turnOrder = UnitManager.Instance.unitList
             .Where(u => u.hp > 0)
@@ -52,7 +50,7 @@ public class Turnmanager : MonoBehaviour
         {
             UnitBase currentUnit = turnOrder[currentIndex];
             yield return StartCoroutine(currentUnit.TakeTurn());
-            yield return new WaitForSeconds(2f);
+            yield return new WaitForSeconds(1f);
             currentIndex = (currentIndex + 1) % turnOrder.Count;
         }
     }

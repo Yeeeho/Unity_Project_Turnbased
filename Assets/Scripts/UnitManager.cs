@@ -18,6 +18,7 @@ public class UnitManager : MonoBehaviour
         Instance = this;
     }
 
+    public Vector3 tileOffset = new Vector3(0.5f, 0.5f, 0);
     int enemyPosY = 3;
     private int EnemyId = 0;
     private int PlayerId = 0;
@@ -34,7 +35,7 @@ public class UnitManager : MonoBehaviour
 
     public void GeneratePlayer()
     {
-        GameObject playerObject = Instantiate(playerPrefab, new Vector3(-3, 0, 0), Quaternion.identity);
+        GameObject playerObject = Instantiate(playerPrefab, new Vector3(0, 0, 0), Quaternion.identity);
         UnitBase playerUnit = playerObject.GetComponent<UnitBase>();
         unitList.Add(playerUnit);
 
