@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\movmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\unitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|c:\\users\\tjswl\\onedrive\\\uBC14\uD0D5 \uD654\uBA74\\project\\turnbased_project\\assets\\scripts\\customtileclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\customtileclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\enemyunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,6 +13,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\playerunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerunit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\tilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\tilemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\movmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\assets\\scripts\\unitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1082160-13E5-6A15-6971-533F8FF0A1DC}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\unitmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +38,92 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "TileManager.cs",
+              "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\TileManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TileManager.cs",
+              "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\TileManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TileManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:23:51.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "MovManager.cs",
               "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\MovManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MovManager.cs",
               "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\MovManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\MovManager.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA/wBkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-04T06:45:55.702Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-04T06:45:55.702Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "UnitManager.cs",
               "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\UnitManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UnitManager.cs",
               "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\UnitManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\UnitManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCQAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-18T07:41:40.793Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-18T07:41:40.793Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TurnManager.cs",
               "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\TurnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\TurnManager.cs",
               "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\TurnManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\TurnManager.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAYwDIAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAAA3wDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-22T07:52:02.651Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T07:52:02.651Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "PlayerUnit.cs",
               "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\PlayerUnit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerUnit.cs",
               "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\PlayerUnit.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerUnit.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T08:07:00.948Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "EnemyUnit.cs",
               "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\EnemyUnit.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyUnit.cs",
               "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\EnemyUnit.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyUnit.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBQAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-22T07:47:32.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomTileClass.cs",
+              "DocumentMoniker": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\CustomTileClass.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CustomTileClass.cs",
+              "ToolTip": "C:\\Users\\tjswl\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Project\\TurnBased_Project\\Assets\\Scripts\\CustomTileClass.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CustomTileClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-06T05:31:08.586Z",
+              "EditorCaption": ""
             }
           ]
         }

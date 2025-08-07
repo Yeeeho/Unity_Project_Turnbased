@@ -12,7 +12,13 @@ public class CamFollowTarget : MonoBehaviour
         {
             Vector3 desiredPos = target.position + offset;
             transform.position = Vector3.Lerp(transform.position, desiredPos, Time.deltaTime * CamFollowSpeed);
+
         }
+    }
+
+    private void Awake()
+    {
+        target = null;
     }
 
     public void SetTarget(Transform newTarget)

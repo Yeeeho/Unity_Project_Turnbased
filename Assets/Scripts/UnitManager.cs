@@ -18,7 +18,6 @@ public class UnitManager : MonoBehaviour
         Instance = this;
     }
 
-    public Vector3 tileOffset = new Vector3(0.5f, 0.5f, 0);
     int enemyPosY = 3;
     private int EnemyId = 0;
     private int PlayerId = 0;
@@ -47,6 +46,7 @@ public abstract class UnitBase : MonoBehaviour
 {
     protected List<UnitBase> unitList => UnitManager.Instance.unitList;
     protected List<UnitBase> turnOrder => Turnmanager.Instance.turnOrder;
+    protected InputManager inputManager = InputManager.Instance;
 
     public MovManager movManager;
 
@@ -54,12 +54,8 @@ public abstract class UnitBase : MonoBehaviour
     public int atk;
     public int hp;
     public int exp;
-
-    public bool isMovable = false;
-
     public abstract IEnumerator TakeTurn();
-
-    public abstract void Attack(UnitBase unit);
+    public abstract IEnumerator Attack();
     public abstract void Die();
 
 

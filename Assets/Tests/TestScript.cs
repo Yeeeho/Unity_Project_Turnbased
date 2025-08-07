@@ -1,4 +1,5 @@
 using System.Collections;
+using JetBrains.Annotations;
 using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
@@ -10,6 +11,7 @@ public class NewTestScript
     public void NewTestScriptSimplePasses()
     {
         // Use the Assert class to test conditions
+        
     }
 
     // A UnityTest behaves like a coroutine in Play Mode. In Edit Mode you can use

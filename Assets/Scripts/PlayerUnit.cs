@@ -15,24 +15,22 @@ public class PlayerUnit : UnitBase
     public override IEnumerator TakeTurn()
     {
         cam.SetTarget(this.transform);
-        Debug.Log($"{this.name}의 턴이다. {this.name}의 체력:{this.hp} 스페이스를 눌러 공격");
-        while(!Input.GetKeyDown(KeyCode.Space))
-        {
-            yield return null;
-        }
-        this.Attack(null);
+        Debug.Log($"{this.name}의 턴이다. {this.name}의 체력:{this.hp}");
+        yield return StartCoroutine(this.Attack());
         Debug.Log("방향키를 눌러 캐릭터를 한 칸 이동.");
         yield return StartCoroutine(MovManager.Instance.Move(this));
         Debug.Log($"{this.name}의 턴이 끝남.");
     }
 
-    public override void Attack(UnitBase unit)
+    public override IEnumerator Attack()
     {
-        if (unit == null) return;
+        Debug.Log($"{this.name}의 공격 차례. 마우스로 공격 대상을 선택.");
+        yield return StartCoroutine(inputManager.MouseSelect());
+        UnitBase unit = inputManager.selectedUnit;
         Debug.Log($"{this.name}이 {unit.name}을 공격했다.");
         unit.hp -= this.atk;
         Debug.Log($"적의 남은 체력:{unit.hp}");
-        if (unit.hp <= 0) 
+        if (unit.hp <= 0)
         {
             unit.Die();
         }

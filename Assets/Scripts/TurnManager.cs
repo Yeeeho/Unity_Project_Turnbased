@@ -8,7 +8,7 @@ public class Turnmanager : MonoBehaviour
 {
     public List<UnitBase> turnOrder = new List<UnitBase>();
     public static Turnmanager Instance;
-
+    public UnitManager unitManager = UnitManager.Instance;
     private void Awake()
     {
         Instance = this;
@@ -16,18 +16,20 @@ public class Turnmanager : MonoBehaviour
 
     private int currentIndex = 0;
 
+    //----------Main----------
     private void Start()
     {
         Debug.Log("게임을 시작했다.");
 
-        UnitManager.Instance.GeneratePlayer();
+        unitManager.GeneratePlayer();
+        unitManager.GenerateEnemy();
 
-        turnOrder = UnitManager.Instance.unitList
+        turnOrder = unitManager.unitList
             .Where(u => u.hp > 0)
             .OrderByDescending(u => u.speed)
             .ToList();
 
-        if (UnitManager.Instance.unitList.Count == 0)
+        if (unitManager.unitList.Count == 0)
         {
             Debug.Log("유닛 리스트가 비어부렀다.");
             return;
