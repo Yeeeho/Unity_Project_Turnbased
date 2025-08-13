@@ -3,14 +3,17 @@ using System.Linq;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Unity.VisualScripting;
 
 public class Turnmanager : MonoBehaviour
 {
     public List<UnitBase> turnOrder = new List<UnitBase>();
     public static Turnmanager Instance;
-    public UnitManager unitManager = UnitManager.Instance;
+    public UnitManager um => UnitManager.Instance;
     private void Awake()
     {
+        if (Instance != null && Instance != this) { Destroy(gameObject); return; }
+
         Instance = this;
     }
 
@@ -21,15 +24,15 @@ public class Turnmanager : MonoBehaviour
     {
         Debug.Log("게임을 시작했다.");
 
-        unitManager.GeneratePlayer();
-        unitManager.GenerateEnemy();
+        um.GeneratePlayer();
+        um.GenerateEnemy();
 
-        turnOrder = unitManager.unitList
+        turnOrder = um.unitList
             .Where(u => u.hp > 0)
             .OrderByDescending(u => u.speed)
             .ToList();
 
-        if (unitManager.unitList.Count == 0)
+        if (um.unitList.Count == 0)
         {
             Debug.Log("유닛 리스트가 비어부렀다.");
             return;
@@ -44,17 +47,29 @@ public class Turnmanager : MonoBehaviour
 
     }
 
-    IEnumerator TurnLoop()
+    public IEnumerator TurnLoop()
     {
         
         Debug.Log($"턴 루프를 시작했다. 시작 인덱스{currentIndex}");
-        while (true)
+
+        bool stopLoop = false;
+
+        while (!stopLoop)
         {
             UnitBase currentUnit = turnOrder[currentIndex];
             yield return StartCoroutine(currentUnit.TakeTurn());
+            IsEnemyAllDead();
             yield return new WaitForSeconds(1f);
             currentIndex = (currentIndex + 1) % turnOrder.Count;
         }
     }
-
+    public void IsEnemyAllDead()
+    {
+        if (um.enemyList.Count == 0)
+        {
+            Debug.Log("적이 모두 죽었다.");
+            
+            SceneController.Instance.NextStage();
+        }
+    }
 }

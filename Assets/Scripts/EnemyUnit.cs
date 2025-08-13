@@ -3,8 +3,6 @@ using UnityEngine;
 
 public class EnemyUnit : UnitBase
 {
-    
-    public CamFollowTarget cam;
     private void Awake()
     {
         hp = 50;
@@ -36,10 +34,12 @@ public class EnemyUnit : UnitBase
     public override void Die()
     {
         Debug.Log($"{this.name}Àº Á×¾ú´Ù. °æÇèÄ¡{this.exp}¸¦ È¹µæÇß´Ù.");
+
         unitList.Remove(this);
         turnOrder.Remove(this);
-        Debug.Log(unitList.Count);
-        Debug.Log(turnOrder.Count);
+        enemyList.Remove(this);
         Destroy(this.gameObject);
     }
+
+
 }

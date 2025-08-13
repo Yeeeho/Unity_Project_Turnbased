@@ -13,6 +13,8 @@ public class MovManager : MonoBehaviour
 
     private void Awake()
     {
+        if (Instance != null && Instance != this) { Destroy(gameObject); return; }
+
         Instance = this;
         Vector3Int startPos = tilemap.WorldToCell(Vector3.zero);
     }

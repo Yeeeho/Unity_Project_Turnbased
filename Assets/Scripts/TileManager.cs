@@ -10,7 +10,7 @@ public class TileManager : MonoBehaviour
     public Vector3 tileOffset = new Vector3(0.5f, 0.5f, 0);
 
     private void Awake()
-    {
+    {   
         Instance = this;
         startPos = tilemap.WorldToCell(Vector3.zero);
     }

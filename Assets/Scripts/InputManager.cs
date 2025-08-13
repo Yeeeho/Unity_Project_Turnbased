@@ -1,38 +1,68 @@
 using System.Collections;
-using System.Transactions;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
     public static InputManager Instance;
-    public UnitBase selectedUnit = null;
-    public IEnumerator MouseSelect()
+
+    public Collider2D curCollider = null;
+    private void Awake()
+    {
+        if (Instance != null && Instance != this) { Destroy(gameObject); return; }
+        Instance = this;
+    }
+    public IEnumerator SelectCollider()
     {
         bool isSelected = false;
+        SpriteRenderer sp = null;
+        SpriteRenderer prevSp = null;
+        Collider2D prevCollider = null;
+        Color originalColor = Color.white;
+
         while (!isSelected)
         {
-            if (Input.GetMouseButtonDown(0))
-            {
-                Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-                RaycastHit2D hit = Physics2D.Raycast(mouseWorldPos, Vector2.zero);
+            Vector2 mouseWorldPos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            RaycastHit2D hit = Physics2D.Raycast(mouseWorldPos, Vector2.zero);
 
-                if (hit.collider != null) 
+            //curCollider is public variable
+            curCollider = hit.collider;
+
+            if (curCollider != null)
+            {
+                sp = curCollider.GetComponent<SpriteRenderer>();
+
+                if (curCollider != prevCollider)
                 {
-                    Debug.Log($"Selected object:{hit.collider.name}");
-                    selectedUnit = hit.collider.GetComponent<UnitBase>();
-                    SpriteRenderer sr = hit.collider.GetComponent<SpriteRenderer>();
-                    if (sr != null) { sr.color = Color.green; }
-                    isSelected = true;
+                    originalColor = sp.color;
                 }
+
+                Color hoverColor = Color.yellow;
+                hoverColor.a = 0.5f;
+
+                sp.color = hoverColor;
+                prevCollider = curCollider;
+                prevSp = prevCollider.GetComponent<SpriteRenderer>();
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    if (hit.collider != null)
+                    {
+                        Debug.Log($"Selected object:{hit.collider.name}");
+                        curCollider = hit.collider;
+                        prevSp.color = originalColor;
+                        isSelected = true;
+                    }
+                }
+                
+            }
+            if (prevCollider != null && prevCollider != curCollider)
+            {
+                prevSp.color = originalColor;
             }
             yield return null;
         }
 
     }
 
-    private void Awake()
-    {
-        Instance = this;
-    }
+    
 }
